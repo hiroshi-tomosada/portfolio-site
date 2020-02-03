@@ -1,0 +1,103 @@
+<!-- ctrl+shift+Hでプレビュー表示-->
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Portofolio</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <ul>
+        <li><a href="#">PROFILE</a></li>
+        <li><a href="#">SKILL</a></li>
+        <li><a href="#">WORK</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="main-wrapper">
+    <div class="main-image">
+      <img src="main-image.jpg" alt="no image"
+       width="1900px" height="800px">
+    </div>
+    <div class="container">
+      <div class="main-title">
+        <h1>Portofolio</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="profile-wrapper">
+    <div class="container">
+      <h1>PROFILE</h1>
+      <p>infomation</p>
+    </div>
+  </div>
+
+  <div class="skill-wrapper">
+    <div class="container">
+      <h2>SKILL</h2>
+      <div class="skills">
+        <div class="skill">
+          <img src="学習.png" alt="no image" class="skill-icon">
+          <p>学習意欲</p>
+        </div>
+        <div class="skill">
+          <img src="コミュニケーション.png" alt="no image" class="skill-icon">
+          <p>コミュニケーション</p>
+        </div>
+        <div class="skill">
+          <img src="ルーペ.png" alt="no image" class="skill-icon">
+          <p>探求心</p>
+        </div>
+      </div>
+      <div class="skill-lists">
+        <div class="skill-cpu">
+          <img src="パソコン.png" alt="no-image" class="computer">
+        </div>
+        <div class="skill-list">
+          <p>Word・Excel・PowerPoint</p>
+          <p>Photoshop・illustrator</p>
+          <p>HTML&CSS</p>
+          <p>javascript studying...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="middle-wrapper">
+    <img src="sub-visual.png" alt="no image"
+     width="1900px" height="400px">
+  </div>
+
+  </div>
+  <div class="work-wrapper">
+    <div class="container">
+      <div class="work-image">
+        <h1>WORK</h1>
+        <a href="#">
+        <img src="fashion-site.png" alt="no image" class="fashion">
+        </a>
+      </div>
+      <div class="work-info">
+        <p>infomation</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-wrapper">
+    <div class="container">
+      <h1>CONTACT</h1>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+    </div>
+  </footer>
+
+</body>
